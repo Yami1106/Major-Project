@@ -26,7 +26,7 @@ Our model has been **trained on a custom dataset** for the following object cate
 ## 📦 Project Structure
 
 ```
-?? FireGuard Rescue Bot
+FireGuard Rescue Bot
 +-- colourdetection/
 ¦   +-- colourdetection.ino              # Arduino code for color detection
 ¦
