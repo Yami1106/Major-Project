@@ -25,8 +25,34 @@ Our model has been **trained on a custom dataset** for the following object cate
 
 ## 📦 Project Structure
 
-<pre> ```text ?? FireGuard Rescue Bot +-- colourdetection/ ¦ +-- colourdetection.ino # Arduino code for color detection ¦ +-- server_esp32/ ¦ +-- server_esp32.ino # ESP32 server code ¦ +-- firepredictor/ ¦ +-- firepredictor.ino # Arduino code for fire prediction ¦ +-- bot_code/ ¦ +-- bot_code.ino # Main bot logic code for Arduino ¦ +-- esp32-proxy/ ¦ +-- server.js # Node.js server for ESP32 proxy ¦ +-- package.json # Node package config ¦ +-- package-lock.json # Lockfile for dependencies ¦ +-- node_modules/ # Node.js dependencies ¦ +-- livestream/ ¦ +-- app.py # Flask app for object detection ¦ +-- obj.names # Custom class labels ¦ +-- yolov4-tiny-custom.cfg # YOLOv4-tiny config file ¦ +-- yolov4-tiny-custom_best.weights # Trained weights for object detection ¦ +-- templates/ ¦ +-- index.html # Web interface for the stream ``` </pre>
-
+```
+?? FireGuard Rescue Bot
++-- colourdetection/
+¦   +-- colourdetection.ino              # Arduino code for color detection
+¦
++-- server_esp32/
+¦   +-- server_esp32.ino                 # ESP32 server code
+¦
++-- firepredictor/
+¦   +-- firepredictor.ino                # Arduino code for fire prediction
+¦
++-- bot_code/
+¦   +-- bot_code.ino                     # Main bot logic code for Arduino
+¦
++-- esp32-proxy/
+¦   +-- server.js                        # Node.js server for ESP32 proxy
+¦   +-- package.json                     # Node package config
+¦   +-- package-lock.json                # Lockfile for dependencies
+¦   +-- node_modules/                    # Node.js dependencies
+¦
++-- livestream/
+¦   +-- app.py                           # Flask app for object detection
+¦   +-- obj.names                        # Custom class labels
+¦   +-- yolov4-tiny-custom.cfg           # YOLOv4-tiny config file
+¦   +-- yolov4-tiny-custom_best.weights  # Trained weights for object detection
+¦   +-- templates/
+¦       +-- index.html                   # Web interface for the stream
+```
 
 ---
 
