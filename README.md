@@ -102,6 +102,8 @@ cd C:\path\to\ngrok
 ngrok config add-authtoken YOUR_AUTHTOKEN
 
 # Step 3: Start tunnel
+
+open Downloads\ngrok-v3-stable-windows-amd64 path and execute the below command
 ngrok http 5000
 
 
