@@ -4,8 +4,8 @@
 #include <ArduinoJson.h>
 
 // ---------------- WiFi Credentials ----------------
-const char* ssid = "S23";
-const char* password = "viropo2310";
+const char* ssid = //;
+const char* password = //;
 
 // ---------------- Motor Pins ----------------
 #define ENA 14
