@@ -12,10 +12,10 @@ String URL = "https://script.google.com/macros/s/AKfycbyNKBgpTZZRSP0X94Bb8uxDFHS
 // Google API Key (for geolocation)
 const char* apiKey = "AIzaSyDrlMN-Sg61sv1TJYqSKIT-VDLkV2PfH3A"; 
 
-const char* twilio_account_sid = "AC8b86652431f86151f362530cebb01e1d";//check in twilio before use 
-const char* twilio_auth_token = "88d983dc4c7de4dbbb81d259a76fee2b";//check in twilio before use 
-const char* twilio_phone_number = "whatsapp:%2B14155238886";  // Add Twilio WhatsApp number
-const char* recipient_phone_number = "whatsapp:%2B919381017192";  // Add Your WhatsApp number
+const char* twilio_account_sid = //twilio before use 
+const char* twilio_auth_token = //check in twilio before use 
+const char* twilio_phone_number = // Add Twilio WhatsApp number
+const char* recipient_phone_number = // Add Your WhatsApp number
 
 WiFiClient espClient;
 
